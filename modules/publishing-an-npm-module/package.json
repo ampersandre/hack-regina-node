@@ -1,0 +1,19 @@
+{
+  "name": "@your-username/my-module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "echo 'Publishing!' && npm run build"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.11"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.122",
+    "typescript": "^3.3.0"
+  }
+}
